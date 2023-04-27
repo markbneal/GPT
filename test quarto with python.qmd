@@ -1,0 +1,12 @@
+---
+title: "Test quarto with python"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{python}
+1 + 1
+```
+

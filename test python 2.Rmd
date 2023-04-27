@@ -117,7 +117,7 @@ document_text = getPDFText("https://arxiv.org/pdf/2304.00228.pdf")
 abstract_text = getAbstract("2304.00228")
 
 # Mine
-document_text = getPDFText("https://github.com/markbneal/GPT/raw/730481c6e46ac234c942547f4c38775b0753991a/1-s2.0-S1751731118002471-main.pdf")
+document_text = getPDFText("https://github.com/markbneal/GPT/raw/55c49ebdc7b12526b012a125bc2d7663f4bcad0a/1-s2.0-S1751731118002471-main.pdf")
 
 system_prompt = "You are a research assistant. Return your results in Markdown format." 
 document_prompt = "You will accurately answer questions about the following research paper: " + document_text
